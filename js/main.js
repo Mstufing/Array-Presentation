@@ -32,8 +32,40 @@
 
 // ? shift() 
 
-let myFavoritePlayers = ["Messi", "Neymar","Mbappe", "Halland"];
+// let myFavoritePlayers = ["Messi", "Neymar","Mbappe", "Halland"];
 
-myFavoritePlayers.shift();
+// myFavoritePlayers.shift();
 
-console.log(myFavoritePlayers);
+// console.log(myFavoritePlayers);
+
+
+// ? reverse() 
+
+//* reverse
+
+// let myFavoritePlayers = ["Messi", "Neymar","Mbappe", "Halland"];
+// myFavoritePlayers.reverse();
+
+// console.log(myFavoritePlayers);
+
+// //* sort and reverse
+
+// let myFavoritePlayers1 = ["Messi", "Neymar","Mbappe", "Halland"];
+// console.log(myFavoritePlayers1.sort());
+// console.log(myFavoritePlayers1.reverse());
+
+
+
+// ? concat() 
+
+let myFavoritePlayers1 = ["Messi", "Neymar"];
+let myFavoritePlayers2 = ["Mbappe", "Halland"];
+let myFavoritePlayers3 = ["De Bruyne", "De Jong"];
+
+
+let myResult = myFavoritePlayers1.concat(myFavoritePlayers2,myFavoritePlayers3);
+
+console.log(myResult);
+
+
+
