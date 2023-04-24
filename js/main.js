@@ -22,10 +22,18 @@
 // console.log(myFavoritePlayers);
 
 
-// ? unshift() 
+// ? pop() 
 
-let myFavoritePlayers = ["Messi", "Neymar", "Halland"];
+// let myFavoritePlayers = ["Messi", "Neymar","Mbappe", "Halland"];
 
-myFavoritePlayers.unshift("Mbappe");
+// myFavoritePlayers.pop();
+
+// console.log(myFavoritePlayers);
+
+// ? shift() 
+
+let myFavoritePlayers = ["Messi", "Neymar","Mbappe", "Halland"];
+
+myFavoritePlayers.shift();
 
 console.log(myFavoritePlayers);
