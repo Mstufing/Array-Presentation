@@ -58,14 +58,39 @@
 
 // ? concat() 
 
-let myFavoritePlayers1 = ["Messi", "Neymar"];
-let myFavoritePlayers2 = ["Mbappe", "Halland"];
-let myFavoritePlayers3 = ["De Bruyne", "De Jong"];
+// let myFavoritePlayers1 = ["Messi", "Neymar"];
+// let myFavoritePlayers2 = ["Mbappe", "Halland"];
+// let myFavoritePlayers3 = ["De Bruyne", "De Jong"];
 
 
-let myResult = myFavoritePlayers1.concat(myFavoritePlayers2,myFavoritePlayers3);
+// let myResult = myFavoritePlayers1.concat(myFavoritePlayers2,myFavoritePlayers3);
 
+// console.log(myResult);
+
+
+
+// ? indexOf() 
+
+// let myFavoritePlayers = ["Messi", "Neymar","Mbappe", "Halland"];
+
+// let myResult = myFavoritePlayers.indexOf("Halland");
+// console.log(myResult);
+
+// let myResult1 = myFavoritePlayers.indexOf("De Bruyne");
+// console.log(myResult1);
+
+
+// ? includes() 
+
+let myFavoritePlayers = ["Messi", "Neymar","Mbappe", "Halland", "Messi"];
+
+let myResult = myFavoritePlayers.includes("Halland");
 console.log(myResult);
 
+let myResult1 = myFavoritePlayers.includes("De Bruyne");
+console.log(myResult1);
 
+
+let myResult2 = myFavoritePlayers.includes("Messi", 2);
+console.log(myResult2);
 
